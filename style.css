@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.vid {
+    border-radius: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tit {
+    background-color: #ccc;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    font-family: cursive;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.head {
+    margin: 20px 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ccc;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: georgia, serif;
+    color: #7e7171;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 50px;
+    color: #8a7373;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size: 50px;
+    color: #8a7373;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.navbar-light {
+    background-color: #fcf8f8 !important;
+}
+
+.gren {
+    background: linear-gradient( -45deg, #ec5252, #6e1a52) !important;
+}
+
+
+/* The modal style */
+
+.open-button {
+    background-color: #555;
+    color: #fff;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+.self-defence {
+  background-image: url(assets/img/self-defence.png) !important;
+  background-position: cover !important;
+}
+.safety-measures{
+  background-image: url(assets/img/sa.jpg) !important;
+  background-position: cover !important;
+}
+.eye-witness{
+  background-image: url(assets/img/domes.jpg) !important;
+  background-position: cover !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.ki {
+  height: 350px !important;
+  border-radius: 10px !important;
+}
