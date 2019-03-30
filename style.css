@@ -33,6 +33,7 @@ body {
 blockquote {
     font-size: 16px;
     line-height: 30px;
+    text-align: center;
     font-family: georgia, serif;
     color: #7e7171;
 }
@@ -125,24 +126,27 @@ blockquote::after {
 .open-button:hover {
     opacity: 1;
 }
+
 .self-defence {
-  background-image: url(assets/img/self-defence.png) !important;
-  background-position: cover !important;
+    background-image: url(assets/img/self-defence.png) !important;
+    background-position: cover !important;
 }
-.safety-measures{
-  background-image: url(assets/img/sa.jpg) !important;
-  background-position: cover !important;
+
+.safety-measures {
+    background-image: url(assets/img/sa.jpg) !important;
+    background-position: cover !important;
 }
-.eye-witness{
-  background-image: url(assets/img/domes.jpg) !important;
-  background-position: cover !important;
+
+.eye-witness {
+    background-image: url(assets/img/domes.jpg) !important;
+    background-position: cover !important;
 }
 
 ul li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .ki {
-  height: 350px !important;
-  border-radius: 10px !important;
+    height: 350px !important;
+    border-radius: 10px !important;
 }
